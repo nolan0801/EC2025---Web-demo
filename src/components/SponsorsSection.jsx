@@ -14,15 +14,19 @@ const SponsorsSection = () => {
     {
       tier: "Nhà tài trợ Kim Cương",
       logos: [
-        { src: "/EC2025.jpg", alt: "Nhà tài trợ 1" },
-        { src: "/cover.png", alt: "Nhà tài trợ 2" }
+        { src: "/kimcuong.png", alt: "Kim Cương" }
       ]
     },
     {
-      tier: "Bảo trợ Truyền thông",
+      tier: "Nhà tài trợ Bạch Kim",
       logos: [
-        { src: "/EC2024.jpg", alt: "Bảo trợ 1" },
-        { src: "/EC2023.jpg", alt: "Bảo trợ 2" }
+        { src: "/bachkim.png", alt: "Bạch Kim" }
+      ]
+    },
+    {
+      tier: "Nhà tài trợ Vàng",
+      logos: [
+        { src: "/vang.png", alt: "Vàng" }
       ]
     }
   ];
