@@ -51,12 +51,11 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: grayscale(100%) opacity(80%);
-  transition: filter var(--transition-normal);
+  transition: transform var(--transition-normal);
 }
 
 .sponsor-logo-box:hover .sponsor-img {
-  filter: grayscale(0%) opacity(100%);
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
