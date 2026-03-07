@@ -19,7 +19,8 @@ const Header = () => {
     { name: 'Lịch trình', href: '#timeline' },
     { name: 'Hình ảnh', href: '#gallery' },
     { name: 'Thể lệ', href: '#rounds' },
-    { name: 'Giải thưởng', href: '#prizes' }
+    { name: 'Giải thưởng', href: '#prizes' },
+    { name: 'Nhà tài trợ', href: '#sponsors' }
   ];
 
   return (

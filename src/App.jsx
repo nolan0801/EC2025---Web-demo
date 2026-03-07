@@ -7,6 +7,7 @@ import GallerySection from './components/GallerySection';
 import RoundsSection from './components/RoundsSection';
 import PrizesSection from './components/PrizesSection';
 import RegisterSection from './components/RegisterSection';
+import SponsorsSection from './components/SponsorsSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <RoundsSection />
         <PrizesSection />
         <RegisterSection />
+        <SponsorsSection />
       </main>
       <Footer />
     </div>
