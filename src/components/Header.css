@@ -49,6 +49,7 @@
 .nav-link {
   font-weight: 500;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav-link::after {
@@ -80,7 +81,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .desktop-nav {
     display: none;
   }
