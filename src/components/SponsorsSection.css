@@ -37,25 +37,12 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.05); /* slightly lighter than normal glass */
-  transition: transform var(--transition-normal), background var(--transition-normal);
-  cursor: pointer;
-}
-
-.sponsor-logo-box:hover {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .sponsor-img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  transition: transform var(--transition-normal);
-}
-
-.sponsor-logo-box:hover .sponsor-img {
-  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

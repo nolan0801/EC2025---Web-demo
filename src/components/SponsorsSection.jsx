@@ -51,7 +51,7 @@ const SponsorsSection = () => {
               <h3 className="tier-title">{tierData.tier}</h3>
               <div className="sponsor-logos">
                 {tierData.logos.map((logo, logoIndex) => (
-                  <div key={logoIndex} className="sponsor-logo-box glass-panel">
+                  <div key={logoIndex} className="sponsor-logo-box">
                     <img src={logo.src} alt={logo.alt} className="sponsor-img" loading="lazy" />
                   </div>
                 ))}
