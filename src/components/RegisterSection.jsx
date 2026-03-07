@@ -25,7 +25,7 @@ const RegisterSection = () => {
                 className="btn btn-primary btn-large pulse-animation"
                 style={{ fontSize: '1.2rem', padding: '1.2rem 3rem' }}
               >
-                ĐIẾN FORM ĐĂNG KÝ QUY THỨC
+                ĐĂNG KÝ NGAY!
                 <ExternalLink size={24} style={{ marginLeft: '12px' }} />
               </a>
             </div>

@@ -3,9 +3,10 @@
 }
 
 .register-container {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 4rem;
   box-shadow: var(--shadow-xl);
   border-top: 2px solid var(--color-accent);
@@ -252,9 +253,7 @@
 
 @media (max-width: 992px) {
   .register-container {
-    grid-template-columns: 1fr;
     padding: 2.5rem;
-    gap: 2.5rem;
   }
 }
 
