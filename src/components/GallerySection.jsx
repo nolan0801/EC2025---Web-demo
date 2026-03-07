@@ -6,15 +6,15 @@ const GallerySection = () => {
   const galleryImages = [
     {
       src: "/EC2023.jpg",
-      alt: "Khoảnh khắc English Champion 2023"
+      alt: "English Champion 2023"
     },
     {
       src: "/EC2024.jpg",
-      alt: "Khoảnh khắc English Champion 2024"
+      alt: "English Champion 2024"
     },
     {
       src: "/EC2025.jpg",
-      alt: "Khởi động English Champion 2025"
+      alt: "English Champion 2025"
     }
   ];
 
