@@ -4,7 +4,7 @@ import './RegisterSection.css';
 
 const RegisterSection = () => {
   // Replace this link with your actual Google Form link
-  const googleFormLink = "https://docs.google.com/forms/u/0/";
+  const googleFormLink = "https://www.youtube.com/watch?v=i54avTdUqwU&list=RDi54avTdUqwU&start_radio=1";
 
   return (
     <section id="register" className="section-padding register-section">
@@ -16,12 +16,12 @@ const RegisterSection = () => {
             <p className="register-subtitle">
               Sẵn sàng để trở thành nhà vô địch năm nay? Nhấn vào nút bên dưới để chuyển đến trang điền thông tin Đăng ký chính thức của Ban tổ chức.
             </p>
-            
+
             <div className="external-register-action" style={{ marginTop: '3rem', marginBottom: '2rem' }}>
-              <a 
-                href={googleFormLink} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href={googleFormLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary btn-large pulse-animation"
                 style={{ fontSize: '1.2rem', padding: '1.2rem 3rem' }}
               >
