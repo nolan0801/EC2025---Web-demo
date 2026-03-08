@@ -48,9 +48,6 @@ const TimelineSection = () => {
         <div className="section-header text-center fade-on-scroll">
           <h2 className="section-title">Lịch trình <span className="text-accent">Cuộc thi</span></h2>
           <div className="divider"></div>
-          <p className="section-subtitle">
-            Hành trình trải nghiệm từ 15/04/2025 đến 29/05/2025.
-          </p>
         </div>
 
         <div className="timeline-container">

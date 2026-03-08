@@ -57,9 +57,6 @@ const RoundsSection = () => {
         <div className="section-header text-center fade-on-scroll">
           <h2 className="section-title">Thể lệ <span className="text-accent">Cuộc thi</span></h2>
           <div className="divider"></div>
-          <p className="section-subtitle">
-            Chi tiết 3 vòng thi đầy thử thách và sáng tạo.
-          </p>
         </div>
 
         <div className="rounds-container fade-on-scroll delay-100">
