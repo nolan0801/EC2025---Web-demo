@@ -34,9 +34,9 @@
 }
 
 .logo img {
-  width: 45px;
-  height: 45px;
-  object-fit: cover;
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
   border-radius: 50%;
   border: 2px solid var(--color-accent);
 }
