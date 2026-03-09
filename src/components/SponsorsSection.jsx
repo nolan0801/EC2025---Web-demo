@@ -41,7 +41,7 @@ const SponsorsSection = () => {
           <h2 className="section-title">Nhà Tài Trợ & <span className="text-accent">Đối Tác</span></h2>
           <div className="divider"></div>
           <p className="section-subtitle">
-            Những tổ chức, doanh nghiệp đồng hành cùng English Champion 2025
+            Những tổ chức, doanh nghiệp đồng hành cùng English Champion 2026
           </p>
         </div>
 

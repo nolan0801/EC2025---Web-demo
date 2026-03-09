@@ -9,7 +9,7 @@ const RoundsSection = () => {
       title: "Vòng Sơ Loại",
       content: (
         <div className="round-details">
-          <h3>20/04 đến 10/05/2025</h3>
+          <h3>13/03 đến 10/04/2026</h3>
           <p><strong>Hình thức thi:</strong> Video giới thiệu ngắn và bài kiểm tra đánh giá năng lực.</p>
           <ul className="round-list">
             <li><strong>Chặng 1 (Video):</strong> Cá nhân (1p30s - 2p) hoặc nhóm 5 người (mỗi thành viên nói 40s). Chủ đề: Circular Economy.</li>
@@ -23,11 +23,11 @@ const RoundsSection = () => {
       title: "Vòng Bán Kết",
       content: (
         <div className="round-details">
-          <h3>16/05 đến 20/05/2025</h3>
+          <h3>12/04 đến 22/04/2026</h3>
           <p><strong>Nội dung:</strong> Nghiên cứu và thuyết trình về chủ đề chung liên quan "Circular Economy".</p>
           <ul className="round-list">
-            <li>Cần chuẩn bị 1 bản Word nghiên cứu (tối đa 10 trang) nộp trước 18/05.</li>
-            <li>Thuyết trình bằng PowerPoint trong đêm Bán kết (20/05).</li>
+            <li>Cần chuẩn bị 1 bản Word nghiên cứu (tối đa 10 trang) nộp trước hạn.</li>
+            <li>Thuyết trình bằng PowerPoint trong đêm Bán kết (22/04).</li>
             <li>Thời lượng: 7 phút thuyết trình + 5 phút trả lời câu hỏi của BGK.</li>
           </ul>
           <p className="notice">4 đội đạt điểm cao nhất sẽ bước vào vòng Chung kết.</p>
@@ -38,7 +38,7 @@ const RoundsSection = () => {
       title: "Vòng Chung Kết",
       content: (
         <div className="round-details">
-          <h3>29/05/2025 - Hội trường 700</h3>
+          <h3>09/05/2026 - Hội trường 700</h3>
           <p>Vòng thi kịch tính nhất quyết định ngôi vị Quán quân.</p>
           <ul className="round-list">
             <li><strong>Bình chọn ảnh:</strong> Trên fanpage để nhận điểm thưởng.</li>

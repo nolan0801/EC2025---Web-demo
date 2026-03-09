@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="footer-logo">
             <img src="/avatar.png" alt="Logo" />
-            <span>English Champion 2025</span>
+            <span>English Champion 2026</span>
           </div>
           <p className="footer-desc">
             Cuộc thi kỹ năng tiếng Anh thường niên do Câu lạc bộ Thủ lĩnh trẻ Học viện Tài chính tổ chức.
@@ -46,7 +46,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <div className="container text-center">
-          <p>&copy; 2025 English Champion - YLC Học viện Tài chính. All rights reserved.</p>
+          <p>&copy; 2026 English Champion - YLC Học viện Tài chính. All rights reserved.</p>
         </div>
       </div>
     </footer>

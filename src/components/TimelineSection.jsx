@@ -5,39 +5,27 @@ import './TimelineSection.css';
 const TimelineSection = () => {
   const events = [
     {
-      date: '15.04 - 20.04',
-      title: 'Khởi động',
-      description: 'Truyền thông online cuộc thi và thu thập dữ liệu Đại sứ.',
-      icon: <Flag size={24} />
-    },
-    {
-      date: '21.04',
-      title: 'Phát động\nCuộc thi',
-      description: 'Lễ phát động cuộc thi English Champion 2025.',
+      date: '12.03',
+      title: 'Lễ\nPhát động',
+      description: 'Lễ phát động cuộc thi English Champion 2026.',
       icon: <PlayCircle size={24} />
     },
     {
-      date: '22.04 - 09.05',
-      title: 'Mở đơn\nĐăng ký',
-      description: 'Truyền thông giảng đường kết hợp online trên toàn Hà Nội.',
+      date: '13.03 - 10.04',
+      title: 'Vòng\nSơ Loại',
+      description: 'Mở đơn đăng ký và bài kiểm tra đánh giá năng lực.',
       icon: <Users size={24} />
     },
     {
-      date: '13.05',
-      title: 'Công bố\nVòng 1',
-      description: 'Công bố kết quả vòng sơ loại 1.',
-      icon: <Award size={24} />
-    },
-    {
-      date: '20.05',
-      title: 'Vòng 2: Thuyết trình',
-      description: 'Vòng Bán kết - Thuyết trình về chủ đề đã cho.',
+      date: '12.04 - 22.04',
+      title: 'Vòng\nBán Kết',
+      description: 'Nghiên cứu và thuyết trình về chủ đề đã cho.',
       icon: <Mic size={24} />
     },
     {
-      date: '29.05',
+      date: '09.05',
       title: 'Chung Kết',
-      description: 'Vòng 3: Đêm chung kết kịch tính tìm ra nhà vô địch.',
+      description: 'Đêm chung kết kịch tính tìm ra nhà vô địch.',
       icon: <Trophy size={24} />
     }
   ];

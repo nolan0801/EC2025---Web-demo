@@ -14,7 +14,7 @@ const GallerySection = () => {
     },
     {
       src: "/EC2025.jpg",
-      alt: "English Champion 2025"
+      alt: "English Champion 2026"
     }
   ];
 
