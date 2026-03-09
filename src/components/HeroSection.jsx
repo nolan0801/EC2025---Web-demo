@@ -6,7 +6,10 @@ const HeroSection = () => {
   return (
     <section className="hero" id="home">
       <div className="container hero-content animate-fade-up">
-        <div className="hero-logo-container">
+        <h1 className="hero-title animate-fade-up">
+          ENGLISH CHAMPION <br className="mobile-break" /><span className="text-accent">2026</span>
+        </h1>
+        <div className="hero-logo-container delay-100 animate-fade-up">
           <img src="/avatar.png" alt="English Champion 2026 Logo" className="hero-main-logo" />
         </div>
         
