@@ -123,6 +123,7 @@
   
   .timeline-item.left, .timeline-item.right {
     left: 0;
+    text-align: left;
   }
   
   .timeline-item.left .timeline-dot,
