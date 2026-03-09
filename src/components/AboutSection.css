@@ -76,18 +76,27 @@
 .registration-info {
   display: flex;
   padding: 3rem;
-  justify-content: space-around;
+  align-items: stretch;
   text-align: center;
+}
+
+.reg-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
 }
 
 .reg-block h3 {
   color: var(--color-accent);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .reg-divider {
   width: 2px;
   background: rgba(255, 255, 255, 0.1);
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -97,8 +106,13 @@
     padding: 2rem 1.5rem;
   }
   
+  .reg-block {
+    padding: 0;
+  }
+  
   .reg-divider {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     height: 2px;
   }
 }
