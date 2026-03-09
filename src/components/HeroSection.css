@@ -46,6 +46,7 @@
   max-width: 650px;
   width: 100%;
   height: auto;
+  margin-top: -1.5rem;
   mix-blend-mode: screen;
   -webkit-mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
   mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
