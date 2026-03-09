@@ -9,6 +9,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="footer-logo">
             <img src="/logo-only.png" alt="Logo" />
+            <span>English Champion 2026</span>
           </div>
           <p className="footer-desc">
             Cuộc thi kỹ năng tiếng Anh thường niên do Câu lạc bộ Thủ lĩnh trẻ Học viện Tài chính tổ chức.

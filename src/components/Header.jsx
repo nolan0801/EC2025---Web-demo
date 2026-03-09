@@ -28,6 +28,7 @@ const Header = () => {
       <div className="container header-content">
         <a href="#" className="logo">
           <img src="/logo-only.png" alt="English Champion 2026 Logo" />
+          <span>English Champion</span>
         </a>
 
         {/* Desktop Nav */}
