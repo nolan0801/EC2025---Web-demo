@@ -14,15 +14,17 @@
   padding: 0 1rem;
 }
 
-.hero-title {
-  margin-bottom: 2rem;
-  letter-spacing: 2px;
-  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  font-weight: 800;
+.hero-title-container {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
-.hero-title span {
-  display: inline-block;
+.hero-title-img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
 }
 
 .mobile-break {
@@ -71,8 +73,7 @@
     display: block;
   }
   
-  .hero-title {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
+  .hero-title-img {
+    max-width: 90%;
   }
 }
