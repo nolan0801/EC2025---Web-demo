@@ -17,14 +17,15 @@
 .hero-title-container {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  align-items: center;
+  margin-top: 4rem;
   margin-bottom: 0;
 }
 
 .hero-title-img {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
-  aspect-ratio: 10 / 3;
+  aspect-ratio: 6 / 1;
   object-fit: cover;
   object-position: center;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
@@ -44,7 +45,7 @@
   max-width: 650px;
   width: 100%;
   height: auto;
-  margin-top: -16%;
+  margin-top: -8%;
   mix-blend-mode: screen;
   -webkit-mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
   mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
@@ -78,16 +79,20 @@
   }
 
   .hero-title-container {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
   
   .hero-title-img {
-    max-width: 100%;
-    transform: scale(1.4);
+    width: 140%;
+    max-width: none;
+    margin-left: -20%;
+    aspect-ratio: 6 / 1;
   }
 
   .hero-main-logo {
-    margin-top: -20%;
-    transform: scale(1.05);
+    margin-top: 0;
+    width: 110%;
+    max-width: none;
+    margin-left: -5%;
   }
 }
