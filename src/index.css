@@ -4,8 +4,8 @@
   /* Color Palette */
   --color-primary: #0A1929; /* Deep tech navy */
   --color-primary-light: #132F4C;
-  --color-accent: #E2E8F0; /* Metallic Silver / White */
-  --color-accent-hover: #CBD5E1;
+  --color-accent: #82DEEE; /* Icy Cyan / Silver Blue */
+  --color-accent-hover: #5BC3D5;
   --color-background: #040D14; /* Very dark blue */
   --color-surface: #0E1E2B; /* Card background */
   --color-surface-light: #1A364C;
@@ -32,7 +32,7 @@
   --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 10px 15px rgba(0, 0, 0, 0.2);
   --shadow-lg: 0 20px 25px rgba(0, 0, 0, 0.3);
-  --shadow-glow: 0 0 20px rgba(226, 232, 240, 0.4);
+  --shadow-glow: 0 0 20px rgba(130, 222, 238, 0.4);
 
   /* Transitions */
   --transition-fast: 0.2s ease;
@@ -196,13 +196,13 @@ button {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(226, 232, 240, 0.7);
+    box-shadow: 0 0 0 0 rgba(130, 222, 238, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 15px rgba(226, 232, 240, 0);
+    box-shadow: 0 0 0 15px rgba(130, 222, 238, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(226, 232, 240, 0);
+    box-shadow: 0 0 0 0 rgba(130, 222, 238, 0);
   }
 }
 
