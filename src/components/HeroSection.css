@@ -24,7 +24,9 @@
   max-width: 650px;
   width: 100%;
   height: auto;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+  mix-blend-mode: screen;
+  -webkit-mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
+  mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
 }
 
 .hero-subtitle {
