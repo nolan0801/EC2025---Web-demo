@@ -49,8 +49,8 @@
   height: auto;
   margin-top: -8%;
   mix-blend-mode: screen;
-  -webkit-mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
-  mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 50%, #000 50%, transparent 100%);
+  mask-image: radial-gradient(ellipse 60% 50% at 50% 50%, #000 50%, transparent 100%);
 }
 
 .hero-subtitle {
@@ -85,18 +85,17 @@
   }
   
   .hero-title-img {
-    width: 140%;
+    width: 100%;
     max-width: none;
-    margin-left: -20%;
+    margin-left: 0;
     aspect-ratio: 10 / 2.2;
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 25%, black 75%, transparent 100%);
-    mask-image: linear-gradient(to bottom, transparent 0%, black 25%, black 75%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
   }
 
   .hero-main-logo {
-    margin-top: 0;
-    width: 110%;
+    margin: -2% auto 0 auto;
+    width: 75%;
     max-width: none;
-    margin-left: -5%;
   }
 }
