@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import Countdown from './Countdown';
 
 const HeroSection = () => {
   return (
@@ -13,6 +14,8 @@ const HeroSection = () => {
           Cuộc thi về kỹ năng tiếng Anh lớn nhất Học viện Tài chính<br/>
           Chủ đề: <strong>Circular Economy</strong> (Kinh tế tuần hoàn)
         </p>
+        
+        <Countdown targetDate="2026-05-09T23:59:59" />
         
         <div className="hero-actions delay-200 animate-fade-up">
           <a href="#register" className="btn btn-primary">Đăng ký ngay</a>
