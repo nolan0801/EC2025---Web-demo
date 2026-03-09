@@ -15,16 +15,21 @@
 }
 
 .hero-title-container {
-  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .hero-title-img {
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
   height: auto;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
+  /* The image is a 2000x2000 square with text in the middle. 
+     We crop the top and bottom transparent space and pull margins in */
+  clip-path: inset(35% 0 35% 0);
+  margin-top: -35%;
+  margin-bottom: -35%;
 }
 
 .mobile-break {
