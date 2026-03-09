@@ -9,10 +9,6 @@ const HeroSection = () => {
         <div className="hero-logo-container">
           <img src="/avatar.png" alt="English Champion 2026 Logo" className="hero-main-logo" />
         </div>
-        <p className="hero-subtitle delay-100 animate-fade-up">
-          Cuộc thi về kỹ năng tiếng Anh lớn nhất Học viện Tài chính<br/>
-          Chủ đề: <strong>Circular Economy</strong> (Kinh tế tuần hoàn)
-        </p>
         
         <Countdown targetDate="2026-04-10T23:59:59" />
         

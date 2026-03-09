@@ -2,15 +2,15 @@
 
 :root {
   /* Color Palette */
-  --color-primary: #0A2540; /* Deep professional blue */
-  --color-primary-light: #1A3C63;
-  --color-accent: #FCA311; /* Vibrant Gold/Orange */
-  --color-accent-hover: #E59400;
-  --color-background: #05111C; /* Very dark blue, almost black */
-  --color-surface: #102135; /* Card background */
-  --color-surface-light: #1E334D;
+  --color-primary: #0F1A24; /* Deep forest navy */
+  --color-primary-light: #1C2E3D;
+  --color-accent: #E5B25D; /* Metallic Gold */
+  --color-accent-hover: #C69542;
+  --color-background: #080D12; /* Very dark, almost black */
+  --color-surface: #121E2A; /* Card background */
+  --color-surface-light: #203244;
   --color-text: #E8EEF2;
-  --color-text-muted: #A0B0C0;
+  --color-text-muted: #9EAFB8;
   --color-white: #FFFFFF;
 
   /* Typography */
@@ -83,7 +83,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(5, 17, 28, 0.85); /* Dark overlay */
+  background: rgba(8, 13, 18, 0.7); /* Dark overlay to let the new background show through slightly more */
 }
 
 h1, h2, h3, h4, h5, h6 {
