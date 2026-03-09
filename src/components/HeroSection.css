@@ -44,7 +44,7 @@
   max-width: 650px;
   width: 100%;
   height: auto;
-  margin-top: -8rem;
+  margin-top: -16%;
   mix-blend-mode: screen;
   -webkit-mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
   mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, #000 70%, transparent 100%);
@@ -76,8 +76,18 @@
   .mobile-break {
     display: block;
   }
+
+  .hero-title-container {
+    margin-top: 2.5rem;
+  }
   
   .hero-title-img {
-    max-width: 90%;
+    max-width: 100%;
+    transform: scale(1.4);
+  }
+
+  .hero-main-logo {
+    margin-top: -20%;
+    transform: scale(1.05);
   }
 }
