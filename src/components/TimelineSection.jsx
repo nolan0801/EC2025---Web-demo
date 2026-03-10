@@ -5,27 +5,33 @@ import './TimelineSection.css';
 const TimelineSection = () => {
   const events = [
     {
-      date: '12.03',
-      title: 'Lễ\nPhát động',
-      description: 'Lễ phát động cuộc thi English Champion 2026.',
+      date: '06.03',
+      title: 'Lễ Phóng\nTàu',
+      description: 'Lễ phát động chính thức cuộc thi English Champion 2026.',
       icon: <PlayCircle size={24} />
     },
     {
-      date: '13.03 - 10.04',
+      date: '07.03 - 30.03',
       title: 'Vòng\nSơ Loại',
-      description: 'Mở đơn đăng ký và bài kiểm tra đánh giá năng lực.',
+      description: 'Mở đơn đăng ký. Thí sinh nộp Video thuyết trình theo nhóm.',
       icon: <Users size={24} />
     },
     {
-      date: '12.04 - 22.04',
-      title: 'Vòng\nBán Kết',
-      description: 'Nghiên cứu và thuyết trình về chủ đề đã cho.',
+      date: '04.04',
+      title: 'Công Bố\nTop 8',
+      description: 'Công bố 8 mảnh ghép xuất sắc nhất tiến vào Vòng Bán Kết.',
+      icon: <Flag size={24} />
+    },
+    {
+      date: '22.04',
+      title: 'Đêm\nBán Kết',
+      description: 'Nghiên cứu, thuyết trình và bảo vệ quan điểm trước BGK.',
       icon: <Mic size={24} />
     },
     {
       date: '09.05',
-      title: 'Chung Kết',
-      description: 'Đêm chung kết kịch tính tìm ra nhà vô địch.',
+      title: 'Đêm\nChung Kết',
+      description: 'Hành trình cuối cùng tìm ra Quán quân của English Champion.',
       icon: <Trophy size={24} />
     }
   ];

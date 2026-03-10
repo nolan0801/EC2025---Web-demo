@@ -6,29 +6,29 @@ const PrizesSection = () => {
   const prizes = [
     {
       title: 'Giải Quán Quân',
-      value: '5,000,000 VNĐ',
+      value: '6,000,000 VNĐ',
       desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Trophy size={48} className="prize-icon golden" />,
       highlight: true
     },
     {
       title: 'Giải Á Quân',
-      value: '3,500,000 VNĐ',
+      value: '4,000,000 VNĐ',
       desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Medal size={40} className="prize-icon silver" />,
       highlight: false
     },
     {
-      title: '2 Giải Quý Quân',
-      value: '2,500,000 VNĐ',
-      desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
+      title: '02 Giải Quý Quân',
+      value: '3,000,000 VNĐ',
+      desc: 'Mỗi giải nhận thưởng tiền mặt kèm Giấy chứng nhận',
       icon: <Medal size={40} className="prize-icon bronze" />,
       highlight: false
     },
     {
-      title: 'Đội thi được yêu thích nhất',
+      title: '03 Giải Phụ',
       value: '500,000 VNĐ',
-      desc: 'Bình chọn qua Fanpage | Kèm hiện vật',
+      desc: 'Top 4 chung cuộc & Đội thi được yêu thích nhất',
       icon: <Heart size={40} className="prize-icon red" />,
       highlight: false
     }
