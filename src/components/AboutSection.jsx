@@ -65,7 +65,7 @@ const AboutSection = () => {
           <div className="reg-divider"></div>
           <div className="reg-block">
             <h3>Đăng ký Theo nhóm</h3>
-            <p>Đăng ký trực tiếp với đội hình chuẩn <strong>đúng 5 thành viên</strong>.</p>
+            <p>Đăng ký trực tiếp với đội gồm <strong>5 thành viên</strong>.</p>
           </div>
         </div>
       </div>

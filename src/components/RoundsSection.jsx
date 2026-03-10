@@ -15,10 +15,7 @@ const RoundsSection = () => {
             <li><strong>Yêu cầu Video:</strong> Thời lượng từ 5 đến 8 phút, 100% bằng tiếng Anh. Hình thức thể hiện tự do (pov, vlog, kịch,...).</li>
             <li><strong>Tiêu chí xuất hiện:</strong> Mỗi thành viên trong đội bắt buộc phải lên hình ít nhất 1 phút.</li>
           </ul>
-          <p className="notice">
-            Kết quả được công bố ngày 04/04. <br />
-            8 đội có điểm số cao nhất sẽ bước tiếp vào vòng Bán Kết.
-          </p>
+          <p className="notice">Kết quả được công bố ngày 04/04. 8 đội có điểm số cao nhất sẽ bước tiếp vào vòng Bán Kết.</p>
         </div>
       )
     },
@@ -32,10 +29,7 @@ const RoundsSection = () => {
             <li><strong>Thuyết trình:</strong> Trình bày phần thi trước Ban Giám khảo. Kết quả 100% phụ thuộc vào góc nhìn chuyên môn của BGK. Chọn ra 4 đội xuất sắc nhất vào Chung Kết.</li>
             <li><strong>Hoạt động phụ (Bình chọn):</strong> Từ 22/04 - 08/05/2026 trên Fanpage. Đội được bình chọn cao nhất (Like + Comment + Share) sẽ nhận thưởng và <strong>được cộng 20 điểm</strong> vào Chặng 2 của đêm Chung kết.</li>
           </ul>
-          <p className="notice">
-            4 đội đạt điểm cao nhất sẽ chính thức <br />
-            chạm tay vào tấm vé Chung kết.
-          </p>
+          <p className="notice">4 đội đạt điểm cao nhất sẽ chính thức chạm tay vào tấm vé Chung kết.</p>
         </div>
       )
     },
