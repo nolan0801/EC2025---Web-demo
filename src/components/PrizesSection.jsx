@@ -21,7 +21,7 @@ const PrizesSection = () => {
     {
       title: '02 Giải Quý Quân',
       value: '3,000,000 VNĐ',
-      desc: 'Mỗi giải nhận thưởng tiền mặt kèm Giấy chứng nhận',
+      desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Medal size={40} className="prize-icon bronze" />,
       highlight: false
     },
