@@ -23,7 +23,7 @@ const RoundsSection = () => {
       title: "Vòng Bán Kết",
       content: (
         <div className="round-details">
-          <h3>22/04/2026 tại HT A1</h3>
+          <h3>22/04/2026 tại Hội trường A1</h3>
           <p><strong>Nội dung:</strong> Nghiên cứu và thuyết trình chuyên môn về nền Kinh tế số.</p>
           <ul className="round-list">
             <li><strong>Thuyết trình:</strong> Trình bày phần thi trước Ban Giám khảo. Kết quả 100% phụ thuộc vào góc nhìn chuyên môn của BGK. Chọn ra 4 đội xuất sắc nhất vào Chung Kết.</li>
