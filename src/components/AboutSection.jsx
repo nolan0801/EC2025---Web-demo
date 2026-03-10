@@ -54,13 +54,13 @@ const AboutSection = () => {
         
         <div className="registration-info glass-panel fade-on-scroll delay-200 mt-md">
           <div className="reg-block">
-            <h3>Đối tượng dự thi</h3>
-            <p>Sinh viên Học viện Tài chính và toàn địa bàn TP. Hà Nội.</p>
+            <h3>Đăng ký Cá nhân</h3>
+            <p>Ban Tổ chức sẽ ghép nhóm ngẫu nhiên sau khi đóng đơn vòng 1.</p>
           </div>
           <div className="reg-divider"></div>
           <div className="reg-block">
-            <h3>Hình thức đăng ký</h3>
-            <p>Bắt buộc ghép nhóm đúng <strong>5 thành viên</strong>.</p>
+            <h3>Đăng ký Theo nhóm</h3>
+            <p>Đăng ký trực tiếp với đội hình chuẩn <strong>đúng 5 thành viên</strong>.</p>
           </div>
         </div>
       </div>

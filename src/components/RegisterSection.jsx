@@ -14,7 +14,7 @@ const RegisterSection = () => {
             <h2 className="register-title">Đăng Ký Tham Gia</h2>
             <div className="divider mx-auto" style={{ margin: '0 auto 1.5rem auto' }}></div>
             <p className="register-subtitle">
-              Sẵn sàng để trở thành nhà vô địch năm nay? Nhấn vào nút bên dưới để chuyển đến trang điền thông tin Đăng ký chính thức của Ban tổ chức.
+              Bạn có thể đăng ký <strong>Cá nhân</strong> (BTC sẽ hỗ trợ ghép đội) hoặc đăng ký theo <strong>Nhóm 5 người</strong>. Nhấn vào nút bên dưới để chuyển đến trang điền thông tin Đăng ký chính thức.
             </p>
 
             <div className="external-register-action" style={{ marginTop: '3rem', marginBottom: '2rem' }}>
