@@ -52,21 +52,20 @@ const AboutSection = () => {
           ))}
         </div>
         
-        <div className="registration-info glass-panel fade-on-scroll delay-200 mt-md">
-          <div className="reg-block" style={{ flex: '1 1 100%', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '1rem', marginBottom: '1rem' }}>
-            <h3>Đối tượng dự thi</h3>
-            <p>Sinh viên Học viện Tài chính và sinh viên toàn địa bàn TP. Hà Nội.</p>
+        <div className="audience-info glass-panel fade-on-scroll delay-100 mt-md" style={{ textAlign: 'center', marginBottom: '1.5rem', padding: '1.5rem' }}>
+          <h3 style={{ color: 'var(--color-accent)', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Đối tượng dự thi</h3>
+          <p style={{ fontSize: '1.1rem', margin: 0 }}>Sinh viên Học viện Tài chính và sinh viên các trường đại học trên toàn địa bàn thành phố Hà Nội.</p>
+        </div>
+
+        <div className="registration-info glass-panel fade-on-scroll delay-200">
+          <div className="reg-block">
+            <h3>Đăng ký Cá nhân</h3>
+            <p>Ban Tổ chức sẽ hỗ trợ ghép nhóm ngẫu nhiên sau khi đóng đơn vòng 1.</p>
           </div>
-          <div style={{ display: 'flex', width: '100%', gap: '2rem' }}>
-            <div className="reg-block" style={{ flex: 1 }}>
-              <h3>Đăng ký Cá nhân</h3>
-              <p>Ban Tổ chức hỗ trợ ghép nhóm ngẫu nhiên sau khi đóng đơn vòng 1.</p>
-            </div>
-            <div className="reg-divider" style={{ display: 'block' }}></div>
-            <div className="reg-block" style={{ flex: 1 }}>
-              <h3>Đăng ký Theo nhóm</h3>
-              <p>Đăng ký thành đội hình chuẩn đúng <strong>5 thành viên</strong>.</p>
-            </div>
+          <div className="reg-divider"></div>
+          <div className="reg-block">
+            <h3>Đăng ký Theo nhóm</h3>
+            <p>Đăng ký trực tiếp với đội hình chuẩn <strong>đúng 5 thành viên</strong>.</p>
           </div>
         </div>
       </div>

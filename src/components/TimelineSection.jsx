@@ -6,7 +6,7 @@ const TimelineSection = () => {
   const events = [
     {
       date: '06.03',
-      title: 'Lễ Phóng\nTàu',
+      title: 'Lễ\nPhát động',
       description: 'Lễ phát động chính thức cuộc thi English Champion 2026.',
       icon: <PlayCircle size={24} />
     },
