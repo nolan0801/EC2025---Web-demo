@@ -9,13 +9,13 @@ const RoundsSection = () => {
       title: "Vòng Sơ Loại",
       content: (
         <div className="round-details">
-          <h3>12/03 đến 03/04/2026</h3>
+          <h3>13/03 đến 10/04/2026</h3>
           <p><strong>Hình thức thi:</strong> Quay 1 video ngắn giới thiệu về đội và chủ đề "Digital Economy".</p>
           <ul className="round-list">
             <li><strong>Yêu cầu Video:</strong> Thời lượng từ 5 đến 8 phút, 100% bằng tiếng Anh. Hình thức thể hiện tự do (pov, vlog, kịch,...).</li>
             <li><strong>Tiêu chí xuất hiện:</strong> Mỗi thành viên trong đội bắt buộc phải lên hình ít nhất 1 phút.</li>
           </ul>
-          <p className="notice">Kết quả được công bố ngày 04/04. 8 đội có điểm số cao nhất sẽ bước tiếp vào vòng Bán Kết.</p>
+          <p className="notice">8 đội thi xuất sắc nhất sẽ bước vào Vòng Bán kết diễn ra từ 12/04.</p>
         </div>
       )
     },
@@ -23,8 +23,8 @@ const RoundsSection = () => {
       title: "Vòng Bán Kết",
       content: (
         <div className="round-details">
-          <h3>22/04/2026 tại Hội trường A1</h3>
-          <p><strong>Nội dung:</strong> Nghiên cứu và thuyết trình chuyên môn về nền Kinh tế số.</p>
+          <h3>12/04 đến 22/04/2026 tại Hội trường A1</h3>
+          <p><strong>Nội dung:</strong> Nghiên cứu suốt thời gian chuẩn bị và thuyết trình sân khấu vào đêm 22/04.</p>
           <ul className="round-list">
             <li><strong>Thuyết trình:</strong> Trình bày phần thi trước Ban Giám khảo. Kết quả 100% phụ thuộc vào góc nhìn chuyên môn của BGK. Chọn ra 4 đội xuất sắc nhất vào Chung Kết.</li>
             <li><strong>Hoạt động phụ (Bình chọn):</strong> Từ 22/04 - 08/05/2026 trên Fanpage. Đội được bình chọn cao nhất (Like + Comment + Share) sẽ nhận thưởng và <strong>được cộng 20 điểm</strong> vào Chặng 2 của đêm Chung kết.</li>
