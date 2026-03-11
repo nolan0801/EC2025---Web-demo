@@ -6,43 +6,43 @@ const RoundsSection = () => {
 
   const roundsInfo = [
     {
-      title: "Vòng Sơ Loại",
+      title: "Vòng 1: Thử thách Video",
       content: (
         <div className="round-details">
           <h3>13/03 đến 10/04/2026</h3>
-          <p><strong>Hình thức thi:</strong> Quay 1 video ngắn giới thiệu về đội và chủ đề "Digital Economy".</p>
+          <p><strong>Bệ phóng Sáng tạo:</strong> Mở màn cuộc chiến, các đội thi sẽ tự do thể hiện cá tính thông qua lăng kính máy quay.</p>
           <ul className="round-list">
-            <li><strong>Yêu cầu Video:</strong> Thời lượng từ 5 đến 8 phút, 100% bằng tiếng Anh. Hình thức thể hiện tự do (pov, vlog, kịch,...).</li>
-            <li><strong>Tiêu chí xuất hiện:</strong> Mỗi thành viên trong đội bắt buộc phải lên hình ít nhất 1 phút.</li>
+            <li><strong>Đề bài thiết kế:</strong> Sáng tạo 1 Video hoàn toàn bằng tiếng Anh (5 - 8 phút) xoay quanh chủ đề "Digital Economy". Không giới hạn định dạng (Vlog, Kịch, POV,...) - miễn là thông điệp của bạn chạm đến khán giả.</li>
+            <li><strong>Dấu ấn cá nhân:</strong> Từng cá nhân trong bộ 5 thành viên đều phải "lên sóng" tỏa sáng tối thiểu 1 phút.</li>
           </ul>
-          <p className="notice">8 đội thi xuất sắc nhất sẽ bước vào Vòng Bán kết diễn ra từ 12/04.</p>
+          <p className="notice">Ngày 12/04, 08 "mảnh ghép" xuất sắc nhất sẽ lộ diện để chính thức bước vào Vòng Bán Kết.</p>
         </div>
       )
     },
     {
-      title: "Vòng Bán Kết",
+      title: "Vòng 2: Bản lĩnh Sân khấu",
       content: (
         <div className="round-details">
           <h3>12/04 đến 22/04/2026</h3>
-          <p><strong>Nội dung:</strong> Nghiên cứu chuyên môn và thuyết trình sân khấu vào Đêm Bán kết 22/04 tại <strong>Hội trường A1</strong>.</p>
+          <p><strong>Đấu trí Chuyên môn:</strong> 08 đội bước vào giai đoạn nghiên cứu nước rút và tỏa sáng trên sân khấu Bán kết.</p>
           <ul className="round-list">
-            <li><strong>Thuyết trình:</strong> Trình bày phần thi trước Ban Giám khảo. Kết quả 100% phụ thuộc vào góc nhìn chuyên môn của BGK. Chọn ra 4 đội xuất sắc nhất vào Chung Kết.</li>
-            <li><strong>Hoạt động phụ (Bình chọn):</strong> Từ 22/04 - 08/05/2026 trên Fanpage. Đội được bình chọn cao nhất (Like + Comment + Share) sẽ nhận thưởng và <strong>được cộng 20 điểm</strong> vào Chặng 2 của đêm Chung kết.</li>
+            <li><strong>Tranh tài (22/04 tại Hội trường A1):</strong> Các đội nhận chủ đề về Kinh tế số từ BTC, trình bày và bảo vệ quan điểm trước Hội đồng Giám khảo. Điểm số phụ thuộc 100% vào góc nhìn chuyên môn.</li>
+            <li><strong>Đường đua Bình chọn (22/04 - 08/05):</strong> Bùng nổ trên Fanpage! Đội thi sở hữu tương tác khủng nhất sẽ ẵm trọn giải thưởng phụ và lập tức <strong>giắt túi +20 điểm</strong> cực kỳ lợi thế cho Đêm Chung kết.</li>
           </ul>
-          <p className="notice">4 đội đạt điểm cao nhất sẽ chính thức chạm tay vào tấm vé Chung kết.</p>
+          <p className="notice">04 chiến binh xuất sắc nhất sẽ chính thức ghi danh mình vào Đêm Chung Kết lịch sử.</p>
         </div>
       )
     },
     {
-      title: "Vòng Chung Kết",
+      title: "Vòng 3: Đêm Chung Kết",
       content: (
         <div className="round-details">
           <h3>09/05/2026 tại Hội trường 700</h3>
-          <p>Đêm vinh danh bùng nổ gồm 3 chặng thi rực lửa để tìm ra Quán quân.</p>
+          <p><strong>Vương miện Gọi tên:</strong> Đêm cống hiến rực lửa với 3 chặng đua siêu kinh điển dành cho Top 4.</p>
           <ul className="round-list">
-            <li><strong>Chặng 1 (Who is the talent?):</strong> Sân khấu hóa (3-5 phút) giải quyết đề bài vòng Bán Kết bằng tiếng Anh. (Nội dung 50%, Ngôn ngữ 30%, Kỹ năng 20%).</li>
-            <li><strong>Chặng 2 (Who is the fastest?):</strong> Giải ô chữ - Trắc nghiệm - Tự luận. Trả lời đúng nhận +10/+15 điểm, đoán Chướng ngại vật được +30 điểm. (Đội được yêu thích nhất được +20 điểm tại vòng này). Chọn ra Top 2 cao điểm nhất đi tiếp.</li>
-            <li><strong>Chặng 3 (Who is the winner?):</strong> Tranh biện (Debate). Có 8 lượt nói chính (3 phút/lượt) và 2 lượt phản hồi (2 phút/lượt). Cho phép Point of Information (POI - Chất vấn đối thủ) tối đa 30s.</li>
+            <li><strong>Chặng 1: Who is the talent?</strong> (Sân khấu hóa 3-5 phút). Giải quyết bài toán Bán kết qua nghệ thuật diễn xuất tiếng Anh. Đánh giá: 50% Nội dung, 30% Ngôn ngữ, 20% Trình diễn.</li>
+            <li><strong>Chặng 2: Who is the fastest?</strong> Khám phá Chướng ngại vật bằng chuỗi câu hỏi tốc độ (Trắc nghiệm +10đ, Tự luận +15đ, Vượt rào +30đ). Nhận thêm 20đ nếu đạt giải Yêu thích nhất. Hai đội đỉnh nhất đi tiếp.</li>
+            <li><strong>Chặng 3: Who is the winner?</strong> (Tranh biện - Debate). Hai phe Ủng hộ/Phản đối đối đầu trực tiếp qua 8 lượt nói chính (3p/lượt) và 2 lượt phản hồi. Áp dụng luật nảy lửa POI (Chất vấn đối thủ trực tiếp 30s).</li>
           </ul>
         </div>
       )
