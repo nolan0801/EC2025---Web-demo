@@ -23,8 +23,8 @@ const RoundsSection = () => {
       title: "Vòng Bán Kết",
       content: (
         <div className="round-details">
-          <h3>12/04 đến 22/04/2026 tại Hội trường A1</h3>
-          <p><strong>Nội dung:</strong> Nghiên cứu suốt thời gian chuẩn bị và thuyết trình sân khấu vào đêm 22/04.</p>
+          <h3>12/04 đến 22/04/2026</h3>
+          <p><strong>Nội dung:</strong> Nghiên cứu chuyên môn và thuyết trình sân khấu vào Đêm Bán kết 22/04 tại <strong>Hội trường A1</strong>.</p>
           <ul className="round-list">
             <li><strong>Thuyết trình:</strong> Trình bày phần thi trước Ban Giám khảo. Kết quả 100% phụ thuộc vào góc nhìn chuyên môn của BGK. Chọn ra 4 đội xuất sắc nhất vào Chung Kết.</li>
             <li><strong>Hoạt động phụ (Bình chọn):</strong> Từ 22/04 - 08/05/2026 trên Fanpage. Đội được bình chọn cao nhất (Like + Comment + Share) sẽ nhận thưởng và <strong>được cộng 20 điểm</strong> vào Chặng 2 của đêm Chung kết.</li>
