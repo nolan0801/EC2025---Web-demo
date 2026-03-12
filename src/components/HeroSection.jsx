@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="hero" id="home">
       <div className="container hero-content animate-fade-up">
         <div className="hero-title-container animate-fade-up">
-          <img src="/title.png" alt="English Champion 2026" className="hero-title-img" />
+          <img src="/element1.png" alt="English Champion 2026" className="hero-title-img" />
         </div>
         <div className="hero-logo-container delay-100 animate-fade-up">
           <img src="/avatar.png" alt="English Champion 2026 Logo" className="hero-main-logo" />
