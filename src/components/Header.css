@@ -34,9 +34,11 @@
 }
 
 .logo img {
-  width: 72px;
-  height: 72px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid var(--color-accent);
 }
 
 .desktop-nav {
