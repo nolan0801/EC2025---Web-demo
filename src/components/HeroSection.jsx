@@ -7,10 +7,10 @@ const HeroSection = () => {
     <section className="hero" id="home">
       <div className="container hero-content animate-fade-up">
         <div className="hero-title-container animate-fade-up">
-          <img src="/element1.png" alt="English Champion 2026" className="hero-title-img" />
+          <img src="/title.png" alt="English Champion 2026" className="hero-title-img" />
         </div>
         <div className="hero-logo-container delay-100 animate-fade-up">
-          <img src="/avatar.png" alt="English Champion 2026 Logo" className="hero-main-logo" />
+          <img src="/element1.png" alt="English Champion 2026 Logo" className="hero-main-logo" />
         </div>
         
         <Countdown targetDate="2026-04-10T23:59:59" />
