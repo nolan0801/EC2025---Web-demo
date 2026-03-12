@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 120px;
   overflow: hidden;
 }
 
@@ -89,7 +89,7 @@
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   .mobile-break {
     display: block;
   }
@@ -97,7 +97,7 @@
   .hero-title-container {
     margin-top: 2rem;
   }
-  
+
   .hero-title-img {
     width: 100%;
     max-width: none;
