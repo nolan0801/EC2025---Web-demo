@@ -27,7 +27,7 @@ const AboutSection = () => {
 
           <div className="about-card glass-panel fade-on-scroll delay-200">
             <div className="about-icon" style={{ overflow: 'hidden' }}>
-              <img src="/newlogo.png" alt="EC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.4)' }} />
+              <img src="/newlogo.png" alt="EC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.5) translateY(4px)' }} />
             </div>
             <h3>Khái quát Cuộc thi</h3>
             <p>
