@@ -27,7 +27,7 @@ const Header = () => {
     <header className={`header glass-panel ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-content">
         <a href="#" className="logo">
-          <img src="/LOGOEC26.png" alt="English Champion 2026 Logo" />
+          <img src="/newlogo.png" alt="English Champion 2026 Logo" />
           <span>ENGLISH CHAMPION</span>
         </a>
 

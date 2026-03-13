@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Trophy } from 'lucide-react';
+
 import './AboutSection.css';
 
 const AboutSection = () => {
@@ -26,8 +26,8 @@ const AboutSection = () => {
           </div>
 
           <div className="about-card glass-panel fade-on-scroll delay-200">
-            <div className="about-icon">
-              <Trophy className="text-accent" size={36} />
+            <div className="about-icon" style={{ overflow: 'hidden', padding: '10px' }}>
+              <img src="/newlogo.png" alt="EC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <h3>Khái quát Cuộc thi</h3>
             <p>
