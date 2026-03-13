@@ -10,7 +10,7 @@ const TimelineSection = () => {
       description: 'Lễ phát động chính thức cuộc thi English Champion 2026.'
     },
     {
-      date: '13.03 - 09.04',
+      date: '13.03.2026 - 09.04.2026',
       title: 'VÒNG SƠ LOẠI',
       description: 'Mở đơn đăng ký. Thí sinh nộp Video thuyết trình theo nhóm.'
     },
