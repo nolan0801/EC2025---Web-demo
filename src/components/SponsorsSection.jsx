@@ -7,7 +7,7 @@ const SponsorsSection = () => {
     {
       tier: "Đơn vị Chỉ đạo",
       logos: [
-        { src: "/avatar.png", alt: "Học viện Tài chính" }
+        { src: "/nhadonghanh.png", alt: "Đơn vị Chỉ đạo", isLarge: true }
       ]
     },
     {
