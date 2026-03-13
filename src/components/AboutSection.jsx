@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section id="about" className="section-padding about-section">
       <div className="container">
         <div className="section-header text-center fade-on-scroll">
-          <h2 className="section-title">Giới thiệu <span className="text-accent">Chung</span></h2>
+          <h2 className="section-title">GIỚI THIỆU <span className="text-accent">CHUNG</span></h2>
           <div className="divider"></div>
         </div>
 
@@ -29,7 +29,7 @@ const AboutSection = () => {
             <div className="about-icon" style={{ overflow: 'hidden' }}>
               <img src="/newlogo.png" alt="EC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.5) translateY(4px)' }} />
             </div>
-            <h3>Khái quát Cuộc thi</h3>
+            <h3>Cuộc thi English Champion</h3>
             <p>
               English Champion là cuộc thi học thuật về Tiếng Anh và kỹ năng tư duy dành cho sinh viên, được tổ chức bởi CLB Thủ Lĩnh Trẻ Học viện Tài chính (YLC). Trải qua 4 mùa tổ chức, cuộc thi đã từng bước khẳng định sức hút của mình khi tạo nên sân chơi học thuật năng động, nơi các bạn sinh viên có cơ hội giao lưu, học hỏi, rèn luyện bản lĩnh và tự tin thể hiện khả năng Tiếng Anh.
             </p>

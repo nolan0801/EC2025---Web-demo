@@ -10,7 +10,7 @@ const RegisterSection = () => {
       <div className="container">
         <div className="register-container glass-panel fade-on-scroll">
           <div className="register-content text-center">
-            <h2 className="register-title">Đăng Ký Tham Gia</h2>
+            <h2 className="register-title">ĐĂNG KÝ THAM GIA</h2>
             <div className="divider mx-auto" style={{ margin: '0 auto 1.5rem auto' }}></div>
             <p className="register-subtitle">
               Hãy tập hợp những người đồng đội xuất sắc nhất và trực tiếp đăng ký theo <strong>Đội nhóm 5 người</strong> (có thể đến từ các trường Đại học khác nhau). Nhấn vào nút bên dưới để chuyển đến trang điền thông tin Đăng ký chính thức của English Champion 2026.

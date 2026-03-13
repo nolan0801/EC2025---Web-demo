@@ -25,7 +25,7 @@ const GallerySection = () => {
           <div className="icon-wrapper">
             <Camera className="text-accent" size={32} />
           </div>
-          <h2 className="section-title">Khoảnh Khắc <span className="text-accent">Ấn Tượng</span></h2>
+          <h2 className="section-title">KHOẢNG KHẮC <span className="text-accent">ẤN TƯỢNG</span></h2>
           <div className="divider"></div>
           <p className="section-subtitle">
             Hòa mình vào không khí bùng nổ của English Champion các mùa trước.

@@ -52,14 +52,14 @@ const RoundsSection = () => {
     <section id="rounds" className="section-padding rounds-section">
       <div className="container">
         <div className="section-header text-center fade-on-scroll">
-          <h2 className="section-title">Thể lệ <span className="text-accent">Cuộc thi</span></h2>
+          <h2 className="section-title">THỂ LỆ <span className="text-accent">CUỘC THI</span></h2>
           <div className="divider"></div>
         </div>
 
         <div className="rounds-container fade-on-scroll delay-100">
           <div className="rounds-tabs">
             {roundsInfo.map((round, index) => (
-              <button 
+              <button
                 key={index}
                 className={`round-tab ${activeTab === index ? 'active' : ''}`}
                 onClick={() => setActiveTab(index)}
@@ -72,10 +72,10 @@ const RoundsSection = () => {
           <div className="round-content-area glass-panel">
             {roundsInfo[activeTab].content}
             <div className="text-center mt-md" style={{ marginTop: '2rem' }}>
-              <a 
-                href="https://drive.google.com/file/d/1JFxbK7_XBudJAg3HiiRHd2bc6sQ_la6_/view" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://drive.google.com/file/d/1JFxbK7_XBudJAg3HiiRHd2bc6sQ_la6_/view"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 600 }}
               >

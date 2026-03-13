@@ -38,7 +38,7 @@ const PrizesSection = () => {
     <section id="prizes" className="section-padding prizes-section">
       <div className="container">
         <div className="section-header text-center fade-on-scroll">
-          <h2 className="section-title">Cơ Cấu <span className="text-accent">Giải Thưởng</span></h2>
+          <h2 className="section-title">CƠ CẤU <span className="text-accent">GIẢI THƯỞNG</span></h2>
           <div className="divider"></div>
         </div>
 

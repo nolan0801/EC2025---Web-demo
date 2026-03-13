@@ -25,7 +25,7 @@ const SponsorsSection = () => {
           <div className="icon-wrapper">
             <Handshake className="text-accent" size={32} />
           </div>
-          <h2 className="section-title">Đơn Vị <span className="text-accent">Đồng Hành</span></h2>
+          <h2 className="section-title">ĐƠN VỊ <span className="text-accent">ĐỒNG HÀNH</span></h2>
           <div className="divider"></div>
           <p className="section-subtitle">
             Những tổ chức, doanh nghiệp đồng hành cùng English Champion 2026
