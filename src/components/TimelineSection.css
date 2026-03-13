@@ -57,8 +57,32 @@
   right: -10px;
 }
 
+.timeline-item.left .timeline-dot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  width: 2rem;
+  height: 2px;
+  background-color: var(--color-accent);
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
 .timeline-item.right .timeline-dot {
   left: -10px;
+}
+
+.timeline-item.right .timeline-dot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  width: 2rem;
+  height: 2px;
+  background-color: var(--color-accent);
+  transform: translateY(-50%);
+  z-index: -1;
 }
 
 .timeline-content {
