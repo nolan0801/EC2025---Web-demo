@@ -16,21 +16,21 @@ const PrizesSection = () => {
       value: '2,500,000 VNĐ',
       desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Medal size={40} className="prize-icon silver" />,
-      highlight: false
+      highlight: true
     },
     {
       title: '02 Giải Quý Quân',
       value: '2,000,000 VNĐ',
       desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Medal size={40} className="prize-icon bronze" />,
-      highlight: false
+      highlight: true
     },
     {
       title: 'Đội Thi Yêu Thích',
       value: '500,000 VNĐ',
       desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Heart size={40} className="prize-icon red" />,
-      highlight: false
+      highlight: true
     }
   ];
 

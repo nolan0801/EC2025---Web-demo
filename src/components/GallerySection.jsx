@@ -14,7 +14,7 @@ const GallerySection = () => {
     },
     {
       src: "/EC2025.jpg",
-      alt: "English Champion 2026"
+      alt: "English Champion 2025"
     }
   ];
 
@@ -34,8 +34,8 @@ const GallerySection = () => {
 
         <div className="gallery-grid">
           {galleryImages.map((img, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`gallery-item fade-on-scroll delay-${(index % 3) * 100}`}
             >
               <div className="gallery-img-wrapper">
