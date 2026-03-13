@@ -13,13 +13,13 @@ const SponsorsSection = () => {
     {
       tier: "Đơn vị Tổ chức",
       logos: [
-        { src: "/element1.png", alt: "YLC" }
+        { src: "/donvitochuc.png", alt: "YLC" }
       ]
     },
     {
       tier: "Đơn vị Đồng hành",
       logos: [
-        { src: "/nhadonghanh.png", alt: "Các đơn vị đồng hành" }
+        { src: "/nhadonghanh.png", alt: "Các đơn vị đồng hành", isLarge: true }
       ]
     }
   ];
@@ -44,7 +44,7 @@ const SponsorsSection = () => {
               <h3 className="tier-title">{tierData.tier}</h3>
               <div className="sponsor-logos">
                 {tierData.logos.map((logo, logoIndex) => (
-                  <div key={logoIndex} className="sponsor-logo-box">
+                  <div key={logoIndex} className={`sponsor-logo-box ${logo.isLarge ? 'logo-large' : ''}`}>
                     <img src={logo.src} alt={logo.alt} className="sponsor-img" loading="lazy" />
                   </div>
                 ))}
