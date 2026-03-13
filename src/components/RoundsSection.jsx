@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Download } from 'lucide-react';
 import './RoundsSection.css';
 
 const RoundsSection = () => {
@@ -6,43 +7,41 @@ const RoundsSection = () => {
 
   const roundsInfo = [
     {
-      title: "Vòng 1: Vòng Sơ loại",
+      title: "Vòng 1: Sơ loại",
       content: (
         <div className="round-details">
-          <h3>13/03 đến 10/04/2026</h3>
-          <p><strong>Hình thức:</strong> Nộp 1 video giới thiệu đội và trình bày về chủ đề "Digital Economy".</p>
+          <h3>Sơ loại & Đánh giá năng lực</h3>
+          <p><strong>Hình thức:</strong> Thể hiện thông qua video giới thiệu ngắn của đội thi.</p>
           <ul className="round-list">
-            <li><strong>Yêu cầu:</strong> Video 100% tiếng Anh, dài 5 - 8 phút. Hình thức tự do (pov, vlog, kịch,...).</li>
-            <li><strong>Quy định:</strong> Bắt buộc 5 thành viên đều xuất hiện, mỗi người nói tối thiểu 1 phút.</li>
+            <li><strong>Video ngắn:</strong> Các thí sinh tiến hành quay video nhóm giới thiệu về chủ đề do Ban Tổ chức đề ra liên quan tới "Digital Economy" và giới thiệu về các thành viên trong đội của mình.</li>
+            <li><strong>Yêu cầu video:</strong> Thời lượng từ 5 phút đến 8 phút. Các thành viên xuất hiện trong cùng một video, mỗi thành viên nói tối thiểu 1 phút để đảm bảo chất lượng đồng đều.</li>
           </ul>
-          <p className="notice">08 đội thi cao điểm nhất sẽ bước tiếp vào Vòng Bán kết.</p>
         </div>
       )
     },
     {
-      title: "Vòng 2: Vòng Bán kết",
+      title: "Vòng 2: Thuyết trình",
       content: (
         <div className="round-details">
-          <h3>12/04 đến 22/04/2026</h3>
-          <p><strong>Nội dung chủ đạo:</strong> Nhận chủ đề từ BTC, nghiên cứu và chuẩn bị thuyết trình.</p>
+          <h3>Thuyết trình Chuyên sâu</h3>
+          <p><strong>Hình thức:</strong> Thuyết trình về chủ đề liên quan tới "Kinh tế số".</p>
           <ul className="round-list">
-            <li><strong>Đêm Bán kết (22/04 tại HT A1):</strong> Các đội thuyết trình và bảo vệ lượng điểm trước Ban Giám khảo. Điểm số 100% do Giám khảo quyết định.</li>
-            <li><strong>Bình chọn (22/04 - 08/05):</strong> Bình chọn Đội thi yêu thích nhất trên Fanpage. Đội chiến thắng nhận thưởng và được <strong>cộng 20 điểm</strong> vào Chặng 2 của đêm Chung kết.</li>
+            <li>Các đội vượt qua Vòng Sơ loại sẽ được bốc thăm chủ đề và chuẩn bị bài thuyết trình trước Ban Giám khảo.</li>
+            <li>Các đội thi cần thể hiện khả năng nghiên cứu chuyên sâu, làm việc nhóm và kỹ năng thuyết trình bằng tiếng Anh một cách lưu loát, thuyết phục.</li>
           </ul>
-          <p className="notice">04 đội thi xuất sắc nhất sẽ tiến vào Đêm Chung kết.</p>
         </div>
       )
     },
     {
-      title: "Vòng 3: Đêm Chung kết",
+      title: "Vòng 3: Chung kết",
       content: (
         <div className="round-details">
-          <h3>09/05/2026 tại Hội trường 700</h3>
-          <p><strong>Cấu trúc Đêm thi:</strong> Gồm 3 chặng thi xác định Quán quân.</p>
+          <h3>Đêm Chung Kết English Champion 2026</h3>
+          <p><strong>Cấu trúc Đêm thi:</strong> Bao gồm 3 chặng thi cam go để xác định ngôi vị Quán quân.</p>
           <ul className="round-list">
-            <li><strong>Chặng 1: Who is the talent?</strong> Sân khấu hóa bằng tiếng Anh (3-5 phút). Tiêu chí: Nội dung (50%), Ngôn ngữ (30%), Điễn xuất (20%).</li>
-            <li><strong>Chặng 2: Who is the fastest?</strong> Giải ô chữ. Trắc nghiệm (+10đ), Tự luận (+15đ), Sai (-15đ), Giải Chướng ngại vật (+30đ). Đội yêu thích nhất (+20đ). Chọn ra 2 đội cao điểm nhất.</li>
-            <li><strong>Chặng 3: Who is the winner?</strong> Tranh biện (Debate). Chọn phe bốc thăm. Gồm 8 lượt nói chính (3p/lượt) và 2 lượt phản hồi (2p/lượt). Có quyền chất vấn (POI) tối đa 30s.</li>
+            <li><strong>Chặng 1 - Who is the talent?:</strong> Sân khấu hóa để thể hiện tài năng và kiến thức.</li>
+            <li><strong>Chặng 2 - Who is the fastest?:</strong> Trả lời nhanh các câu hỏi hàng ngang và tìm "Chướng ngại vật" liên quan đến chủ đề kinh tế số.</li>
+            <li><strong>Chặng 3 - Who is the winner?:</strong> Tranh biện (Debate) căng thẳng giữa các đội mạnh nhất để tìm ra nhà vô địch với Luật Tranh biện cụ thể từ BTC.</li>
           </ul>
         </div>
       )
@@ -72,6 +71,18 @@ const RoundsSection = () => {
 
           <div className="round-content-area glass-panel">
             {roundsInfo[activeTab].content}
+            <div className="text-center mt-md" style={{ marginTop: '2rem' }}>
+              <a 
+                href="/english-champion-booklet.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn btn-primary"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 600 }}
+              >
+                <Download size={20} />
+                BOOKLET CUỘC THI
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -104,6 +104,8 @@
 
 .timeline-desc {
   color: var(--color-text-muted);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;

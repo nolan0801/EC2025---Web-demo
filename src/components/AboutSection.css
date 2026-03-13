@@ -19,35 +19,34 @@
   border-radius: 2px;
 }
 
-.section-subtitle {
-  max-width: 700px;
-  margin: 0 auto;
-  color: var(--color-text-muted);
-  font-size: 1.1rem;
-}
-
-.features-grid {
+.about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.feature-card {
-  padding: 2.5rem 2rem;
+.about-card {
+  padding: 3rem 2rem;
   text-align: center;
   transition: transform var(--transition-normal), box-shadow var(--transition-normal);
-  border-top: 3px solid transparent;
+  border-top: 4px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.feature-card:hover {
+.about-card:hover {
   transform: translateY(-10px);
   border-top-color: var(--color-accent);
   box-shadow: var(--shadow-lg);
 }
 
-.feature-icon {
-  width: 70px;
-  height: 70px;
+.about-icon {
+  width: 80px;
+  height: 80px;
   margin: 0 auto 1.5rem;
   background: rgba(252, 163, 17, 0.1);
   border-radius: 50%;
@@ -56,63 +55,28 @@
   justify-content: center;
 }
 
-.feature-card h3 {
-  font-size: 1.6rem;
-  margin-bottom: 1.2rem;
+.about-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
   color: var(--color-white);
   line-height: 1.3;
 }
 
-.feature-card p {
+.about-card p {
   color: var(--color-text-muted);
-  font-size: 1.05rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
-.mt-md {
-  margin-top: 3rem;
-}
-
-.registration-info {
-  display: flex;
-  padding: 3rem;
-  align-items: stretch;
-  text-align: center;
-}
-
-.reg-block {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 2rem;
-}
-
-.reg-block h3 {
-  color: var(--color-accent);
-  margin-bottom: 0.8rem;
-}
-
-.reg-divider {
-  width: 2px;
-  background: rgba(255, 255, 255, 0.1);
-  margin: 0;
+.about-card p:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  .registration-info {
-    flex-direction: column;
+  .about-grid {
+    grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 2rem 1.5rem;
-  }
-  
-  .reg-block {
-    padding: 0;
-  }
-  
-  .reg-divider {
-    width: 80%;
-    margin: 0 auto;
-    height: 2px;
   }
 }

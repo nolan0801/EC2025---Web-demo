@@ -20,7 +20,7 @@ const Header = () => {
     { name: 'Hình ảnh', href: '#gallery' },
     { name: 'Thể lệ', href: '#rounds' },
     { name: 'Giải thưởng', href: '#prizes' },
-    { name: 'Nhà tài trợ', href: '#sponsors' }
+    { name: 'Đơn vị đồng hành', href: '#sponsors' }
   ];
 
   return (

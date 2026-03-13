@@ -3,30 +3,25 @@ import { Handshake } from 'lucide-react';
 import './SponsorsSection.css';
 
 const SponsorsSection = () => {
-  // Using downloaded images as placeholders for sponsors
   const sponsorTiers = [
     {
-      tier: "Đơn vị Tổ chức & Đồng hành",
+      tier: "Đơn vị Chỉ đạo",
       logos: [
-        { src: "/avatar.png", alt: "Học viện Tài chính" },
+        { src: "/avatar.png", alt: "Học viện Tài chính" }
       ]
     },
     {
-      tier: "Nhà tài trợ Kim Cương",
+      tier: "Đơn vị Tổ chức",
       logos: [
-        { src: "/kimcuong.png", alt: "Kim Cương" }
+        { src: "/element1.png", alt: "YLC" }
       ]
     },
     {
-      tier: "Nhà tài trợ Bạch Kim",
+      tier: "Đơn vị Đồng hành",
       logos: [
-        { src: "/bachkim.png", alt: "Bạch Kim" }
-      ]
-    },
-    {
-      tier: "Nhà tài trợ Vàng",
-      logos: [
-        { src: "/vang.png", alt: "Vàng" }
+        { src: "/kimcuong.png", alt: "Đơn vị đồng hành 1" },
+        { src: "/bachkim.png", alt: "Đơn vị đồng hành 2" },
+        { src: "/vang.png", alt: "Đơn vị đồng hành 3" }
       ]
     }
   ];
@@ -38,7 +33,7 @@ const SponsorsSection = () => {
           <div className="icon-wrapper">
             <Handshake className="text-accent" size={32} />
           </div>
-          <h2 className="section-title">Nhà Tài Trợ & <span className="text-accent">Đối Tác</span></h2>
+          <h2 className="section-title">Đơn Vị <span className="text-accent">Đồng Hành</span></h2>
           <div className="divider"></div>
           <p className="section-subtitle">
             Những tổ chức, doanh nghiệp đồng hành cùng English Champion 2026

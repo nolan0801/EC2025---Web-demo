@@ -3,8 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import './RegisterSection.css';
 
 const RegisterSection = () => {
-  // Replace this link with your actual Google Form link
-  const googleFormLink = "https://www.youtube.com/watch?v=i54avTdUqwU&list=RDi54avTdUqwU&start_radio=1";
+  const googleFormLink = "https://forms.gle/aRUGYueoPy5wyb2d8";
 
   return (
     <section id="register" className="section-padding register-section">
@@ -14,7 +13,7 @@ const RegisterSection = () => {
             <h2 className="register-title">Đăng Ký Tham Gia</h2>
             <div className="divider mx-auto" style={{ margin: '0 auto 1.5rem auto' }}></div>
             <p className="register-subtitle">
-              Bạn có thể đăng ký <strong>Cá nhân</strong> (BTC sẽ hỗ trợ ghép đội) hoặc đăng ký theo <strong>Nhóm 5 người</strong>. Nhấn vào nút bên dưới để chuyển đến trang điền thông tin Đăng ký chính thức.
+              Hãy tập hợp những người đồng đội xuất sắc nhất và trực tiếp đăng ký theo <strong>Đội nhóm 5 người</strong> (có thể đến từ các trường Đại học khác nhau). Nhấn vào nút bên dưới để chuyển đến trang điền thông tin Đăng ký chính thức của English Champion 2026.
             </p>
 
             <div className="external-register-action" style={{ marginTop: '3rem', marginBottom: '2rem' }}>
