@@ -28,7 +28,7 @@ const PrizesSection = () => {
     {
       title: 'Đội Thi Yêu Thích',
       value: '500,000 VNĐ',
-      desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
+      //desc: 'Kèm hiện vật từ nhà tài trợ & Giấy chứng nhận',
       icon: <Heart size={40} className="prize-icon red" />,
       highlight: true
     }
@@ -44,8 +44,8 @@ const PrizesSection = () => {
 
         <div className="prizes-grid">
           {prizes.map((prize, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`prize-card glass-panel fade-on-scroll delay-${(index % 4) * 100} ${prize.highlight ? 'highlight' : ''}`}
             >
               <div className="prize-icon-wrapper">
