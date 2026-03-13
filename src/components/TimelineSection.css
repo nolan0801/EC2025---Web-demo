@@ -152,4 +152,9 @@
   .timeline-item.left .timeline-date {
     justify-content: flex-start;
   }
+
+  .timeline-item.left .timeline-dot::after {
+    left: 18px;
+    right: auto;
+  }
 }
