@@ -7,19 +7,13 @@ const SponsorsSection = () => {
     {
       tier: "Đơn vị Chỉ đạo",
       logos: [
-        { src: "/nhadonghanh.png", alt: "Đơn vị Chỉ đạo", isLarge: true }
+        { src: "/donvidonghanh.png", alt: "Đơn vị Chỉ đạo", isLarge: true }
       ]
     },
     {
       tier: "Đơn vị Tổ chức",
       logos: [
-        { src: "/donvitochuc.png", alt: "YLC" }
-      ]
-    },
-    {
-      tier: "Đơn vị Đồng hành",
-      logos: [
-        { src: "/nhadonghanh.png", alt: "Các đơn vị đồng hành", isLarge: true }
+        { src: "/donvitochuc.png", alt: "YLC", }
       ]
     }
   ];

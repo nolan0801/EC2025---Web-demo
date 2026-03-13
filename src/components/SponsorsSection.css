@@ -40,7 +40,7 @@
 }
 
 .sponsor-logo-box.logo-large {
-  width: 600px;
+  width: 450px;
   height: auto;
   min-height: 150px;
   max-width: 100%;
@@ -54,12 +54,14 @@
 
 @media (max-width: 768px) {
   .sponsor-logo-box {
-    width: calc(50% - 1rem); /* 2 columns on mobile */
+    width: calc(50% - 1rem);
+    /* 2 columns on mobile */
     min-width: 140px;
   }
-  
+
   .sponsor-logo-box.logo-large {
-    width: 100%; /* Full width on mobile */
+    width: 100%;
+    /* Full width on mobile */
     height: auto;
   }
 }

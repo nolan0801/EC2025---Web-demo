@@ -79,7 +79,6 @@ const RoundsSection = () => {
                 className="btn btn-primary"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 600 }}
               >
-                <Download size={20} />
                 BOOKLET CUỘC THI
               </a>
             </div>
