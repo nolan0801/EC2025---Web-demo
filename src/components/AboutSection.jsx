@@ -13,8 +13,8 @@ const AboutSection = () => {
 
         <div className="about-grid">
           <div className="about-card glass-panel fade-on-scroll delay-100">
-            <div className="about-icon" style={{ overflow: 'hidden' }}>
-              <img src="/donvitochuc.png" alt="YLC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.4)' }} />
+            <div className="about-icon" style={{ overflow: 'hidden', padding: '10px' }}>
+              <img src="/donvitochuc.png" alt="YLC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <h3>CLB Thủ Lĩnh Trẻ</h3>
             <p>
