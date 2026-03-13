@@ -73,7 +73,7 @@ const RoundsSection = () => {
             {roundsInfo[activeTab].content}
             <div className="text-center mt-md" style={{ marginTop: '2rem' }}>
               <a
-                href="https://drive.google.com/file/d/1JFxbK7_XBudJAg3HiiRHd2bc6sQ_la6_/view"
+                href="https://drive.google.com/file/d/1sbHcuRRPEJQUn4Mbv24UwiVUD-18Wwe7/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
