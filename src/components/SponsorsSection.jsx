@@ -19,9 +19,7 @@ const SponsorsSection = () => {
     {
       tier: "Đơn vị Đồng hành",
       logos: [
-        { src: "/kimcuong.png", alt: "Đơn vị đồng hành 1" },
-        { src: "/bachkim.png", alt: "Đơn vị đồng hành 2" },
-        { src: "/vang.png", alt: "Đơn vị đồng hành 3" }
+        { src: "/nhadonghanh.png", alt: "Các đơn vị đồng hành" }
       ]
     }
   ];
