@@ -10,7 +10,7 @@ const RoundsSection = () => {
       title: "Vòng 1: Sơ loại",
       content: (
         <div className="round-details">
-          <h3>Sơ loại & Đánh giá năng lực</h3>
+          <h3>Nội dung và Cách thức thi</h3>
           <p><strong>Hình thức:</strong> Thể hiện thông qua video giới thiệu ngắn của đội thi.</p>
           <ul className="round-list">
             <li><strong>Video ngắn:</strong> Các thí sinh tiến hành quay video nhóm giới thiệu về chủ đề do Ban Tổ chức đề ra liên quan tới "Digital Economy" và giới thiệu về các thành viên trong đội của mình.</li>
@@ -23,7 +23,7 @@ const RoundsSection = () => {
       title: "Vòng 2: Thuyết trình",
       content: (
         <div className="round-details">
-          <h3>Thuyết trình Chuyên sâu</h3>
+          <h3>Nội dung và Cách thức thi</h3>
           <p><strong>Hình thức:</strong> Thuyết trình về chủ đề liên quan tới "Kinh tế số".</p>
           <ul className="round-list">
             <li>Các đội vượt qua Vòng Sơ loại sẽ được bốc thăm chủ đề và chuẩn bị bài thuyết trình trước Ban Giám khảo.</li>
@@ -36,7 +36,7 @@ const RoundsSection = () => {
       title: "Vòng 3: Chung kết",
       content: (
         <div className="round-details">
-          <h3>Đêm Chung Kết English Champion 2026</h3>
+          <h3>Nội dung và Cách thức thi</h3>
           <p><strong>Cấu trúc Đêm thi:</strong> Bao gồm 3 chặng thi cam go để xác định ngôi vị Quán quân.</p>
           <ul className="round-list">
             <li><strong>Chặng 1 - Who is the talent?:</strong> Sân khấu hóa để thể hiện tài năng và kiến thức.</li>
@@ -73,7 +73,7 @@ const RoundsSection = () => {
             {roundsInfo[activeTab].content}
             <div className="text-center mt-md" style={{ marginTop: '2rem' }}>
               <a 
-                href="/english-champion-booklet.pdf" 
+                href="https://drive.google.com/file/d/1JFxbK7_XBudJAg3HiiRHd2bc6sQ_la6_/view" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-primary"

@@ -13,12 +13,12 @@ const AboutSection = () => {
 
         <div className="about-grid">
           <div className="about-card glass-panel fade-on-scroll delay-100">
-            <div className="about-icon">
-              <Users className="text-accent" size={36} />
+            <div className="about-icon" style={{ overflow: 'hidden', padding: '10px' }}>
+              <img src="/donvitochuc.png" alt="YLC Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
-            <h3>CLB Thủ Lĩnh Trẻ (YLC)</h3>
+            <h3>CLB Thủ Lĩnh Trẻ</h3>
             <p>
-              CLB Thủ Lĩnh Trẻ Học viện Tài chính (Young Leaders Club – YLC) trực thuộc Đoàn Thanh niên Học viện Tài chính, được thành lập vào ngày 31/07/2018, là câu lạc bộ duy nhất hoạt động dưới sự bảo trợ của Ban Điều hành Chương trình Định hướng Chứng chỉ Quốc tế Học viện Tài chính. 
+              CLB Thủ Lĩnh Trẻ Học viện Tài chính (Young Leaders Club – YLC) trực thuộc Đoàn Thanh niên Học viện Tài chính, được thành lập vào ngày 31/07/2018, là câu lạc bộ duy nhất hoạt động dưới sự bảo trợ của Ban Điều hành Chương trình Định hướng Chứng chỉ Quốc tế Học viện Tài chính.
             </p>
             <p>
               Ra đời với sứ mệnh phát triển kỹ năng tiếng Anh và kỹ năng mềm cho sinh viên, YLC hướng tới xây dựng môi trường học tập năng động, sáng tạo, giúp các bạn sinh viên rèn luyện sự tự tin, bản lĩnh và khả năng hội nhập trong học tập cũng như công việc.

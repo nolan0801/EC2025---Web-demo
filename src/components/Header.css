@@ -53,7 +53,7 @@
 
 .nav-link {
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
   position: relative;
@@ -100,7 +100,7 @@
   .desktop-nav {
     display: none;
   }
-  
+
   .mobile-toggle {
     display: block;
   }
@@ -120,6 +120,6 @@
   .mobile-nav-link {
     font-family: var(--font-heading);
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }

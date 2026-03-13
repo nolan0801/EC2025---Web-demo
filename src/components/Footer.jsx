@@ -17,28 +17,47 @@ const Footer = () => {
         </div>
 
         <div className="footer-contact">
-          <h3>Thông tin liên hệ</h3>
+          <h3>CUỘC THI ENGLISH CHAMPION</h3>
           <ul className="contact-list">
             <li>
-              <Phone size={18} className="text-accent" />
-              <div>
-                <span>034 234 6162 (Chi)</span><br/>
-                <span>086 568 0166 (Việt)</span>
-              </div>
+              <Facebook size={18} className="text-accent" />
+              <a href="https://www.facebook.com/englishchampion.ylc/" target="_blank" rel="noreferrer">
+                Fanpage English Champion
+              </a>
             </li>
             <li>
               <Mail size={18} className="text-accent" />
-              <span>clbthulinhtre@hvtc.edu.vn</span>
+              <span>ylchvtc@gmail.com</span>
             </li>
             <li>
-              <MapPin size={18} className="text-accent" />
-              <span>Học viện Tài chính, 58 Lê Văn Hiến, Bắc Từ Liêm, HN</span>
+              <Phone size={18} className="text-accent" />
+              <div>
+                <span>➤ Ms. Nguyên (President): 0916111738</span><br/>
+                <span>➤ Ms. Yến (Head of Media Department): 0378022204</span>
+              </div>
             </li>
+          </ul>
+        </div>
+        
+        <div className="footer-contact">
+          <h3>CLB THỦ LĨNH TRẺ HỌC VIỆN TÀI CHÍNH - YLC</h3>
+          <ul className="contact-list">
             <li>
               <Facebook size={18} className="text-accent" />
-              <a href="https://www.facebook.com/englishchampion.ylc" target="_blank" rel="noreferrer">
-                Fanpage English Champion
+              <a href="https://www.facebook.com/ylc.aof/" target="_blank" rel="noreferrer">
+                Fanpage YLC
               </a>
+            </li>
+            <li>
+              <Mail size={18} className="text-accent" />
+              <span>ylchvtc@gmail.com</span>
+            </li>
+            <li>
+              <Phone size={18} className="text-accent" />
+              <div>
+                <span>➤ Ms. Nguyên (President): 0916111738</span><br/>
+                <span>➤ Ms. Yến (Head of Media Department): 0378022204</span>
+              </div>
             </li>
           </ul>
         </div>
